@@ -693,19 +693,29 @@
               <FilePath>../../gui/src/common/frontendapplication.cpp</FilePath>
             </File>
             <File>
+              <FileName>LogoScreenPresenter.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../gui/src/logoscreen_screen/logoscreenpresenter.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>LogoScreenView.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../gui/src/logoscreen_screen/logoscreenview.cpp</FilePath>
+            </File>
+            <File>
               <FileName>Model.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../../gui/src/model/model.cpp</FilePath>
             </File>
             <File>
-              <FileName>Screen1Presenter.cpp</FileName>
+              <FileName>TestButtonPresenter.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>../../gui/src/screen1_screen/screen1presenter.cpp</FilePath>
+              <FilePath>../../gui/src/testbutton_screen/testbuttonpresenter.cpp</FilePath>
             </File>
             <File>
-              <FileName>Screen1View.cpp</FileName>
+              <FileName>TestButtonView.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>../../gui/src/screen1_screen/screen1view.cpp</FilePath>
+              <FilePath>../../gui/src/testbutton_screen/testbuttonview.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -723,19 +733,24 @@
               <FilePath>../../generated/images/src/bitmapdatabase.cpp</FilePath>
             </File>
             <File>
+              <FileName>down-press.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../generated/images/src/down-press.cpp</FilePath>
+            </File>
+            <File>
               <FileName>Font_verdana_10_4bpp.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../../generated/fonts/src/font_verdana_10_4bpp.cpp</FilePath>
             </File>
             <File>
-              <FileName>Font_verdana_20_4bpp.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../../generated/fonts/src/font_verdana_20_4bpp.cpp</FilePath>
-            </File>
-            <File>
               <FileName>Font_verdana_40_4bpp.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../../generated/fonts/src/font_verdana_40_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_verdana_80_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../generated/fonts/src/font_verdana_80_4bpp.cpp</FilePath>
             </File>
             <File>
               <FileName>FontGetters.cpp</FileName>
@@ -753,19 +768,24 @@
               <FilePath>../../generated/fonts/src/kerning_verdana_10_4bpp.cpp</FilePath>
             </File>
             <File>
-              <FileName>Kerning_verdana_20_4bpp.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../../generated/fonts/src/kerning_verdana_20_4bpp.cpp</FilePath>
-            </File>
-            <File>
               <FileName>Kerning_verdana_40_4bpp.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../../generated/fonts/src/kerning_verdana_40_4bpp.cpp</FilePath>
             </File>
             <File>
-              <FileName>Screen1ViewBase.cpp</FileName>
+              <FileName>Kerning_verdana_80_4bpp.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>../../generated/gui_generated/src/screen1_screen/screen1viewbase.cpp</FilePath>
+              <FilePath>../../generated/fonts/src/kerning_verdana_80_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>LanguageGb.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../generated/texts/src/languagegb.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>LogoScreenViewBase.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../generated/gui_generated/src/logoscreen_screen/logoscreenviewbase.cpp</FilePath>
             </File>
             <File>
               <FileName>stm32f469_logo.cpp</FileName>
@@ -778,14 +798,19 @@
               <FilePath>../../generated/fonts/src/table_verdana_10_4bpp.cpp</FilePath>
             </File>
             <File>
-              <FileName>Table_verdana_20_4bpp.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../../generated/fonts/src/table_verdana_20_4bpp.cpp</FilePath>
-            </File>
-            <File>
               <FileName>Table_verdana_40_4bpp.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../../generated/fonts/src/table_verdana_40_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Table_verdana_80_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../generated/fonts/src/table_verdana_80_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>TestButtonViewBase.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../generated/gui_generated/src/testbutton_screen/testbuttonviewbase.cpp</FilePath>
             </File>
             <File>
               <FileName>Texts.cpp</FileName>
@@ -796,6 +821,11 @@
               <FileName>TypedTextDatabase.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../../generated/texts/src/typedtextdatabase.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>up-press.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../generated/images/src/up-press.cpp</FilePath>
             </File>
           </Files>
         </Group>

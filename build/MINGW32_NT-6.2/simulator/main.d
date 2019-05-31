@@ -64,13 +64,20 @@ build/MINGW32_NT-6.2/simulator/main.o: simulator/main.cpp \
  touchgfx//framework/include/touchgfx/JSMOCHelper.hpp \
  touchgfx//framework/include/mvp/Presenter.hpp \
  gui/include/gui/model/Model.hpp \
- gui/include/gui/screen1_screen/Screen1View.hpp \
- generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp \
- gui/include/gui/screen1_screen/Screen1Presenter.hpp \
+ gui/include/gui/logoscreen_screen/LogoScreenView.hpp \
+ generated/gui_generated/include/gui_generated/logoscreen_screen/LogoScreenViewBase.hpp \
+ gui/include/gui/logoscreen_screen/LogoScreenPresenter.hpp \
  gui/include/gui/model/ModelListener.hpp \
  touchgfx//framework/include/touchgfx/widgets/Box.hpp \
  touchgfx//framework/include/touchgfx/widgets/Widget.hpp \
  touchgfx//framework/include/touchgfx/widgets/Image.hpp \
+ gui/include/gui/testbutton_screen/TestButtonView.hpp \
+ generated/gui_generated/include/gui_generated/testbutton_screen/TestButtonViewBase.hpp \
+ gui/include/gui/testbutton_screen/TestButtonPresenter.hpp \
+ touchgfx//framework/include/touchgfx/widgets/Button.hpp \
+ touchgfx//framework/include/touchgfx/widgets/AbstractButton.hpp \
+ touchgfx//framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
+ touchgfx//framework/include/touchgfx/widgets/TextArea.hpp \
  generated/images/include/BitmapDatabase.hpp \
  generated/gui_generated/include/gui_generated/common/SimConstants.hpp \
  touchgfx//framework/include/platform/driver/touch/SDL2TouchController.hpp \
@@ -207,11 +214,11 @@ touchgfx//framework/include/mvp/Presenter.hpp:
 
 gui/include/gui/model/Model.hpp:
 
-gui/include/gui/screen1_screen/Screen1View.hpp:
+gui/include/gui/logoscreen_screen/LogoScreenView.hpp:
 
-generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp:
+generated/gui_generated/include/gui_generated/logoscreen_screen/LogoScreenViewBase.hpp:
 
-gui/include/gui/screen1_screen/Screen1Presenter.hpp:
+gui/include/gui/logoscreen_screen/LogoScreenPresenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
 
@@ -220,6 +227,20 @@ touchgfx//framework/include/touchgfx/widgets/Box.hpp:
 touchgfx//framework/include/touchgfx/widgets/Widget.hpp:
 
 touchgfx//framework/include/touchgfx/widgets/Image.hpp:
+
+gui/include/gui/testbutton_screen/TestButtonView.hpp:
+
+generated/gui_generated/include/gui_generated/testbutton_screen/TestButtonViewBase.hpp:
+
+gui/include/gui/testbutton_screen/TestButtonPresenter.hpp:
+
+touchgfx//framework/include/touchgfx/widgets/Button.hpp:
+
+touchgfx//framework/include/touchgfx/widgets/AbstractButton.hpp:
+
+touchgfx//framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
+
+touchgfx//framework/include/touchgfx/widgets/TextArea.hpp:
 
 generated/images/include/BitmapDatabase.hpp:
 

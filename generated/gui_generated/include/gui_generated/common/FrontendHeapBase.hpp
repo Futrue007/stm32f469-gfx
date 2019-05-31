@@ -11,8 +11,10 @@
 #include <gui/common/FrontendApplication.hpp>
 #include <gui/model/Model.hpp>
 
-#include <gui/screen1_screen/Screen1View.hpp>
-#include <gui/screen1_screen/Screen1Presenter.hpp>
+#include <gui/logoscreen_screen/LogoScreenView.hpp>
+#include <gui/logoscreen_screen/LogoScreenPresenter.hpp>
+#include <gui/testbutton_screen/TestButtonView.hpp>
+#include <gui/testbutton_screen/TestButtonPresenter.hpp>
 
 
 /**
@@ -35,8 +37,9 @@ public:
      * A list of all view types. Must end with meta::Nil.
      * @note All view types used in the application MUST be added to this list!
      */
-    typedef meta::TypeList< Screen1View,
-            meta::Nil
+    typedef meta::TypeList< LogoScreenView,
+            meta::TypeList< TestButtonView,
+            meta::Nil >
             > GeneratedViewTypes;
 
     /**
@@ -48,8 +51,9 @@ public:
      * A list of all presenter types. Must end with meta::Nil.
      * @note All presenter types used in the application MUST be added to this list!
      */
-    typedef meta::TypeList< Screen1Presenter,
-            meta::Nil
+    typedef meta::TypeList< LogoScreenPresenter,
+            meta::TypeList< TestButtonPresenter,
+            meta::Nil >
             > GeneratedPresenterTypes;
 
     /**
@@ -72,7 +76,7 @@ public:
 
     virtual void gotoStartScreen(FrontendApplication& app)
     {
-        app.gotoScreen1ScreenNoTransition();
+        app.gotoLogoScreenScreenNoTransition();
     }
 protected:
     FrontendHeapBase(AbstractPartition& presenters, AbstractPartition& views, AbstractPartition& transitions, FrontendApplication& app)

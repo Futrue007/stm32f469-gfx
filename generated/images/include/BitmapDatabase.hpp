@@ -6,7 +6,9 @@
 #include <touchgfx/hal/Types.hpp>
 #include <touchgfx/Bitmap.hpp>
 
-const uint16_t BITMAP_STM32F469_LOGO_ID = 0; // Size: 800x480 pixels
+const uint16_t BITMAP_DOWN_PRESS_ID = 0; // Size: 242x91 pixels
+const uint16_t BITMAP_STM32F469_LOGO_ID = 1; // Size: 800x480 pixels
+const uint16_t BITMAP_UP_PRESS_ID = 2; // Size: 242x91 pixels
 
 namespace BitmapDatabase
 {

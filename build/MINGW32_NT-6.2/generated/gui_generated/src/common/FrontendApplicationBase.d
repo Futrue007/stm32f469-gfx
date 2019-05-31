@@ -41,15 +41,24 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  generated/gui_generated/include/gui_generated/common/FrontendHeapBase.hpp \
  touchgfx//framework/include/touchgfx/transitions/NoTransition.hpp \
  gui/include/gui/common/FrontendApplication.hpp \
- gui/include/gui/screen1_screen/Screen1View.hpp \
- generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp \
- gui/include/gui/screen1_screen/Screen1Presenter.hpp \
+ gui/include/gui/logoscreen_screen/LogoScreenView.hpp \
+ generated/gui_generated/include/gui_generated/logoscreen_screen/LogoScreenViewBase.hpp \
+ gui/include/gui/logoscreen_screen/LogoScreenPresenter.hpp \
  gui/include/gui/model/ModelListener.hpp \
  touchgfx//framework/include/touchgfx/widgets/Box.hpp \
  touchgfx//framework/include/touchgfx/widgets/Widget.hpp \
  touchgfx//framework/include/touchgfx/widgets/Image.hpp \
- generated/texts/include/texts/TextKeysAndLanguages.hpp \
- touchgfx//framework/include/touchgfx/Texts.hpp
+ gui/include/gui/testbutton_screen/TestButtonView.hpp \
+ generated/gui_generated/include/gui_generated/testbutton_screen/TestButtonViewBase.hpp \
+ gui/include/gui/testbutton_screen/TestButtonPresenter.hpp \
+ touchgfx//framework/include/touchgfx/widgets/Button.hpp \
+ touchgfx//framework/include/touchgfx/widgets/AbstractButton.hpp \
+ touchgfx//framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
+ touchgfx//framework/include/touchgfx/widgets/TextArea.hpp \
+ touchgfx//framework/include/touchgfx/FontManager.hpp \
+ touchgfx//framework/include/touchgfx/TypedText.hpp \
+ touchgfx//framework/include/touchgfx/Texts.hpp \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp
 
 generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
 
@@ -135,11 +144,11 @@ touchgfx//framework/include/touchgfx/transitions/NoTransition.hpp:
 
 gui/include/gui/common/FrontendApplication.hpp:
 
-gui/include/gui/screen1_screen/Screen1View.hpp:
+gui/include/gui/logoscreen_screen/LogoScreenView.hpp:
 
-generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp:
+generated/gui_generated/include/gui_generated/logoscreen_screen/LogoScreenViewBase.hpp:
 
-gui/include/gui/screen1_screen/Screen1Presenter.hpp:
+gui/include/gui/logoscreen_screen/LogoScreenPresenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
 
@@ -149,6 +158,24 @@ touchgfx//framework/include/touchgfx/widgets/Widget.hpp:
 
 touchgfx//framework/include/touchgfx/widgets/Image.hpp:
 
-generated/texts/include/texts/TextKeysAndLanguages.hpp:
+gui/include/gui/testbutton_screen/TestButtonView.hpp:
+
+generated/gui_generated/include/gui_generated/testbutton_screen/TestButtonViewBase.hpp:
+
+gui/include/gui/testbutton_screen/TestButtonPresenter.hpp:
+
+touchgfx//framework/include/touchgfx/widgets/Button.hpp:
+
+touchgfx//framework/include/touchgfx/widgets/AbstractButton.hpp:
+
+touchgfx//framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
+
+touchgfx//framework/include/touchgfx/widgets/TextArea.hpp:
+
+touchgfx//framework/include/touchgfx/FontManager.hpp:
+
+touchgfx//framework/include/touchgfx/TypedText.hpp:
 
 touchgfx//framework/include/touchgfx/Texts.hpp:
+
+generated/texts/include/texts/TextKeysAndLanguages.hpp:

@@ -41,12 +41,7 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/screen1_screen/Screen1ViewBase.
  touchgfx//framework/include/mvp/MVPHeap.hpp \
  gui/include/gui/model/Model.hpp \
  gui/include/gui/screen1_screen/Screen1Presenter.hpp \
- gui/include/gui/model/ModelListener.hpp \
- touchgfx//framework/include/touchgfx/widgets/Box.hpp \
- touchgfx//framework/include/touchgfx/widgets/Widget.hpp \
- touchgfx//framework/include/touchgfx/widgets/Image.hpp \
- touchgfx//framework/include/touchgfx/Color.hpp \
- generated/images/include/BitmapDatabase.hpp
+ gui/include/gui/model/ModelListener.hpp
 
 generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp:
 
@@ -131,13 +126,3 @@ gui/include/gui/model/Model.hpp:
 gui/include/gui/screen1_screen/Screen1Presenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
-
-touchgfx//framework/include/touchgfx/widgets/Box.hpp:
-
-touchgfx//framework/include/touchgfx/widgets/Widget.hpp:
-
-touchgfx//framework/include/touchgfx/widgets/Image.hpp:
-
-touchgfx//framework/include/touchgfx/Color.hpp:
-
-generated/images/include/BitmapDatabase.hpp:

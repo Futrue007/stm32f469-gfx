@@ -1063,10 +1063,10 @@
           <name>$PROJ_DIR$\..\..\generated\fonts\src\Font_verdana_10_4bpp.cpp</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\generated\fonts\src\Font_verdana_20_4bpp.cpp</name>
+          <name>$PROJ_DIR$\..\..\generated\fonts\src\Font_verdana_40_4bpp.cpp</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\generated\fonts\src\Font_verdana_40_4bpp.cpp</name>
+          <name>$PROJ_DIR$\..\..\generated\fonts\src\Font_verdana_80_4bpp.cpp</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\generated\fonts\src\FontGetters.cpp</name>
@@ -1075,19 +1075,19 @@
           <name>$PROJ_DIR$\..\..\generated\fonts\src\Kerning_verdana_10_4bpp.cpp</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\generated\fonts\src\Kerning_verdana_20_4bpp.cpp</name>
+          <name>$PROJ_DIR$\..\..\generated\fonts\src\Kerning_verdana_40_4bpp.cpp</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\generated\fonts\src\Kerning_verdana_40_4bpp.cpp</name>
+          <name>$PROJ_DIR$\..\..\generated\fonts\src\Kerning_verdana_80_4bpp.cpp</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\generated\fonts\src\Table_verdana_10_4bpp.cpp</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\generated\fonts\src\Table_verdana_20_4bpp.cpp</name>
+          <name>$PROJ_DIR$\..\..\generated\fonts\src\Table_verdana_40_4bpp.cpp</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\generated\fonts\src\Table_verdana_40_4bpp.cpp</name>
+          <name>$PROJ_DIR$\..\..\generated\fonts\src\Table_verdana_80_4bpp.cpp</name>
         </file>
       </group>
       <group>
@@ -1099,9 +1099,15 @@
           </file>
         </group>
         <group>
-          <name>screen1_screen</name>
+          <name>logoscreen_screen</name>
           <file>
-            <name>$PROJ_DIR$\..\..\generated\gui_generated\src\screen1_screen\Screen1ViewBase.cpp</name>
+            <name>$PROJ_DIR$\..\..\generated\gui_generated\src\logoscreen_screen\LogoScreenViewBase.cpp</name>
+          </file>
+        </group>
+        <group>
+          <name>testbutton_screen</name>
+          <file>
+            <name>$PROJ_DIR$\..\..\generated\gui_generated\src\testbutton_screen\TestButtonViewBase.cpp</name>
           </file>
         </group>
       </group>
@@ -1111,11 +1117,20 @@
           <name>$PROJ_DIR$\..\..\generated\images\src\BitmapDatabase.cpp</name>
         </file>
         <file>
+          <name>$PROJ_DIR$\..\..\generated\images\src\down-press.cpp</name>
+        </file>
+        <file>
           <name>$PROJ_DIR$\..\..\generated\images\src\stm32f469_logo.cpp</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\..\generated\images\src\up-press.cpp</name>
         </file>
       </group>
       <group>
         <name>texts</name>
+        <file>
+          <name>$PROJ_DIR$\..\..\generated\texts\src\LanguageGb.cpp</name>
+        </file>
         <file>
           <name>$PROJ_DIR$\..\..\generated\texts\src\Texts.cpp</name>
         </file>
@@ -1133,18 +1148,27 @@
         </file>
       </group>
       <group>
+        <name>logoscreen_screen</name>
+        <file>
+          <name>$PROJ_DIR$\..\..\gui\src\logoscreen_screen\LogoScreenPresenter.cpp</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\..\gui\src\logoscreen_screen\LogoScreenView.cpp</name>
+        </file>
+      </group>
+      <group>
         <name>model</name>
         <file>
           <name>$PROJ_DIR$\..\..\gui\src\model\Model.cpp</name>
         </file>
       </group>
       <group>
-        <name>screen1_screen</name>
+        <name>testbutton_screen</name>
         <file>
-          <name>$PROJ_DIR$\..\..\gui\src\screen1_screen\Screen1Presenter.cpp</name>
+          <name>$PROJ_DIR$\..\..\gui\src\testbutton_screen\TestButtonPresenter.cpp</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\gui\src\screen1_screen\Screen1View.cpp</name>
+          <name>$PROJ_DIR$\..\..\gui\src\testbutton_screen\TestButtonView.cpp</name>
         </file>
       </group>
     </group>

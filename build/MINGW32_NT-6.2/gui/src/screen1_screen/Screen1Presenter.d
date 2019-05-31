@@ -42,10 +42,7 @@ build/MINGW32_NT-6.2/gui/src/screen1_screen/Screen1Presenter.o: \
  touchgfx//framework/include/mvp/MVPHeap.hpp \
  gui/include/gui/model/Model.hpp \
  gui/include/gui/screen1_screen/Screen1Presenter.hpp \
- gui/include/gui/model/ModelListener.hpp \
- touchgfx//framework/include/touchgfx/widgets/Box.hpp \
- touchgfx//framework/include/touchgfx/widgets/Widget.hpp \
- touchgfx//framework/include/touchgfx/widgets/Image.hpp
+ gui/include/gui/model/ModelListener.hpp
 
 gui/include/gui/screen1_screen/Screen1View.hpp:
 
@@ -132,9 +129,3 @@ gui/include/gui/model/Model.hpp:
 gui/include/gui/screen1_screen/Screen1Presenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
-
-touchgfx//framework/include/touchgfx/widgets/Box.hpp:
-
-touchgfx//framework/include/touchgfx/widgets/Widget.hpp:
-
-touchgfx//framework/include/touchgfx/widgets/Image.hpp:
